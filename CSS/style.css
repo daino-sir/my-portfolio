@@ -49,8 +49,7 @@
         outline: none;
         display: inline-block;
         padding: 30px;
-        color: rgba(255, 255, 255, 0.809)/*rgb(194, 194, 30)*/
-        ;
+        color: rgba(255, 255, 255, 0.809);
         background-color: rgb(44, 44, 44);
         text-align: center;
         /*border-radius: 10px;*/
