@@ -16,7 +16,7 @@ header {
     background-image: url("../Images/astraunant.jpg");
     /*set a specific height*/
     min-height: 500px;
-    width: max-content;
+    width: 100%;
     /*create the parallax scrolling effect*/
     background-attachment: fixed;
     background-position: center;
