@@ -161,7 +161,7 @@ input[type=submit]:hover {
 
 .navbar {
     overflow: hidden;
-    background-color: ;
+    background-color: rgb(194, 194, 30);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*margin-top: -85%;*/
     width: 100%;
