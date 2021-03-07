@@ -152,7 +152,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     border: none;
-    background-color: rgb(194, 194, 30);
+    background-color: #2196f3;
     color: white;
     transition-duration: 0.5s;
     padding-left: 25px;
@@ -161,7 +161,7 @@ input[type=submit]:hover {
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(194, 194, 30);
+    background-color: ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*margin-top: -85%;*/
     width: 100%;
