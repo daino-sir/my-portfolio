@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--parallax effect-->
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a id="hv" href="../index.html">Back Home</a>
+        <a id="hv" href="#">Contact Me</a>
+    </div>
+    <!--<header>Contact Me!</header>
+    <button id="home_button"><a id="back_home" href="../index.html">Back Home</a></button>
+    -->
+    <div class="parallax"></div>
+    <div style="height:1000px;background-color:#2a2b2f">
+        <div id="card3">
+            <form action="action_page.php">
+                <div id="container1">
+                    <img id="get_back" src="../Images/get_back.svg" alt="We'll Get Back">
+                    <p>
+                        <h1 id="phone_number">For more; call +254-798-251-1702</h1>
+                    </p>
+                </div>
+                <div id="container2">
+                    <!--first name-->
+                    <label id="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <!--last name-->
+                    <label id="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <!--email-->
+                    <label id="lname">Email</label>
+                    <input type="text" id="lname" name="email" placeholder="eg: johndoe@mail.com">
+                    <!--Gender radio button-->
+                    <!--
+                    <label id="gender">What's Your Gender?</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                -->
+                    <!--County Drop-Down Menu-->
+                    <label id="countyid">County</label>
+                    <select id="county" name="county">
+              <option value="Mombasa">Mombasa</option>
+              <option value="Nariobi">Nariobi</option>
+              <option value="Kisumu">Kisumu</option>
+              <option value="Nakuru">Nakuru</option>
+              <option value="Nanyuki">Nanyuki</option>
+              <option value="Kajiado">Kajiado</option>
+              
+            </select>
+                    <!--Subject-->
+                    <label id="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Any comments go here.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
