@@ -1,0 +1,29 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(194, 194, 30);
+    border: 5px;
+    /*padding: 20px;*/
+    border-radius: 20px;
+    border-color: whitesmoke;
+    border-style: dashed;
+    font-size: 75px;
+    box-decoration-break: slice;
+}
+
+header p {
+    font-family: cursive;
+    font-size: 15px;
+    font-style: italic;
+}
+
+body {
+    background-color: #232427;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    position: fixed;
+    max-width: 500px;
+    box-shadow: rgb(2, 1, 19);
+}
