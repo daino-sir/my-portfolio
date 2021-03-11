@@ -93,6 +93,7 @@ img {
 img:hover {
     border-radius: 40px;
     transition-duration: 0.4s;
+    z-index: 20;
 }
 
 #container #card {
