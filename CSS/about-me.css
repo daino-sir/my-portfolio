@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(194, 194, 30);
@@ -210,4 +216,5 @@ img {
 
 #rays video {
     border: none;
+    filter: drop-shadow();
 }
