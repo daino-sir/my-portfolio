@@ -45,6 +45,8 @@ body {
     animation: ease-in-out;
     transition-duration: 0.8s;
     animation-play-state: paused;
+    position: fixed;
+    top: 68%;
 }
 
 #more:hover {
