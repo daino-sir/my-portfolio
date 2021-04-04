@@ -2,12 +2,15 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 100px;
     color: rgb(194, 194, 30);
+    position: fixed;
+    left: 10%;
 }
 
 p {
     font-family: comic sans MS;
     font-size: 15px;
     color: rgb(194, 194, 30);
+    position: fixed;
 }
 
 * {
@@ -80,6 +83,7 @@ body {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 40px 0;
+    left: 70%;
 }
 
 img {
@@ -87,6 +91,7 @@ img {
     max-width: 700px;
     max-height: 400px;
     border-radius: 15px;
+    filter: blur(100%);
 }
 
 img:hover {
@@ -101,6 +106,7 @@ img:hover {
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset 5px 5px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     margin: 30px;
+    left: 70%;
 }
 
 #container #card #box img {
