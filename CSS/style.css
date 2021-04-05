@@ -1,6 +1,6 @@
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 50px;
     color: rgb(194, 194, 30);
     position: fixed;
     left: 10%;
@@ -161,4 +161,13 @@ img:hover {
     animation-duration: 0.8s;
     transition-duration: 0.8s;
     /*border-top: rgba(255, 255, 255, 0.1);*/
+}
+
+.navbar h1 {
+    font-family: 'Pacifico', cursive;
+    color: #2a2b2f;
+    /*-webkit-text-stroke: 1px white;*/
+    margin-left: 70%;
+    font-size: 70px;
+    margin-top: 0%;
 }
