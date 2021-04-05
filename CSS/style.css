@@ -11,6 +11,8 @@ p {
     font-size: 15px;
     color: rgb(194, 194, 30);
     position: fixed;
+    animation: ease-in-out 2s;
+    transition-duration: 2s;
 }
 
 * {
@@ -46,7 +48,7 @@ body {
     transition-duration: 0.8s;
     animation-play-state: paused;
     position: fixed;
-    top: 68%;
+    margin-top: 90%;
 }
 
 #more:hover {
