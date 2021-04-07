@@ -11,8 +11,8 @@ p {
     font-size: 15px;
     color: white;
     position: fixed;
-    animation: ease-in-out 2s;
-    transition-duration: 2s;
+    animation: ease-in-out 0.8s;
+    transition-duration: 0.8s;
 }
 
 * {
