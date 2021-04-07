@@ -48,7 +48,6 @@ body {
     transition-duration: 0.8s;
     animation-play-state: paused;
     position: fixed;
-    margin-top: 50%;
 }
 
 #more:hover {
